@@ -40,8 +40,8 @@ void ShiftArraycontent(){
     //gcNumLED[uiVorherigesFeld] = gcNumLED[uiAktuellesFeld];
   }
 
-  // TODO: Irgendwas habe ich hier noch vergessen, aber ich weiß nicht was... (*1)
-  gcNumLED[0] = '.';
+  // TODO: Irgendwas habe ich hier noch vergessen, aber ich weiß nicht was...
+
 
 
 }
