@@ -17,15 +17,9 @@ using namespace std;
 
 char gcNumLED[NUM_LED];
 
-char * pcBegin;
-char * pcEnd;
-
-
 void initArray(){
   memset(gcNumLED,'.',sizeof(gcNumLED));
-  // gcNumLED[sizeof(gcNumLED)-1] = '\0';  // escape the array
-  // pcBegin = gcNumLED;
-  // pcEnd   = gcNumLED[sizeof(gcNumLED)-1-1];    // -escepezeichen -"Array startet mit null"
+
 }
 
 void ShiftArraycontent(){
@@ -168,53 +162,4 @@ int main() {
 .............................................................................!..
 ..............................................................................!.
 ...............................................................................!
-
- */
-
-//                          STOP
-
-//               NICHT WEITER HERUNTERSCROLLEN
-
-
-//                  HIER BEFINDEN SICH NUR DIE LOESUNGEN
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// (*1)  gcNumLED[0] = '.';
-// (*2)  gcNumLED[uiAktuellesFeld] = gcNumLED[uiVorherigesFeld];
-
-
-
-
-
+*/
