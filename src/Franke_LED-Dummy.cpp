@@ -64,11 +64,14 @@ int main() {
 
   initArray();
 
+  // Was macht diese Zeile?
   gcNumLED[0] = '!';
+  // Was macht diese Zeile?
   gcNumLED[sizeof(gcNumLED)-1] = '#';
 
 
-  for(int i = sizeof(gcNumLED); i > 0 ; i--){
+  // TODO: Ich habe hier einfach mal geraten wie oft ich diese funktion aufgerufen habe...
+  for(int i = 40; i > 0 ; i--){
 
     PrintArray();
     ShiftArraycontent();
