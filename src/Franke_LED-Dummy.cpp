@@ -1,6 +1,6 @@
 //============================================================================
 // Name        : Franke_LED-Dummy.cpp
-// Author      : 
+// Author      : Armin 
 // Version     :
 // Copyright   : 
 // Description : Hello World in C++, Ansi-style
