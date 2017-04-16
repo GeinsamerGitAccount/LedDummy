@@ -1,0 +1,24 @@
+// folgende Kapitel
+
+
+https://rogerdudler.github.io/git-guide/index.de.html
+Neues Repository erstellen
+Workflow -> Super wichtig zum verstehen
+add & commit
+Änderungen rückgängig machen -> weiteres wissen
+
+
+gitk oder giggle sind Grafische ansichten von deinem Reprositori
+
+## Nuetzliche Befehle
+
+# git log # Zeigt alle commits an
+
+# gitk # einfach GUI für commits ( du musst im Prjektordner sein )
+# giggle # Huebschere gui fuer commits ( du musst im Prjektordner sein )
+
+# vergleichen von commits
+#  git difftool "commitID" "commitID"
+
+# gehe zum neuesten commit ( löst das problem "detached head" )
+#  git checkout master
