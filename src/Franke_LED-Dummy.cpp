@@ -36,7 +36,7 @@ void ShiftArraycontent(){
     unsigned int uiAktuellesFeld = iShift;
 
     // TODO: Ich glaube ich habe hier einen Denkfehler gemacht...
-    gcNumLED[uiAktuellesFeld] = gcNumLED[uiVorherigesFeld];
+    gcNumLED[uiVorherigesFeld] = gcNumLED[uiAktuellesFeld];
     //gcNumLED[uiVorherigesFeld] = gcNumLED[uiAktuellesFeld];
   }
 
